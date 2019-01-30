@@ -1,0 +1,29 @@
+{
+  "coord": { "lon": 114.16, "lat": 22.28 },
+  "weather": [
+    { "id": 801, "main": "Clouds", "description": "few clouds", "icon": "02n" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 292.74,
+    "pressure": 1019,
+    "humidity": 68,
+    "temp_min": 292.15,
+    "temp_max": 294.15
+  },
+  "visibility": 10000,
+  "wind": { "speed": 7.7, "deg": 80 },
+  "clouds": { "all": 20 },
+  "dt": 1548858600,
+  "sys": {
+    "type": 1,
+    "id": 9154,
+    "message": 0.0061,
+    "country": "CN",
+    "sunrise": 1548802965,
+    "sunset": 1548843048
+  },
+  "id": 1819729,
+  "name": "Hong Kong",
+  "cod": 200
+}

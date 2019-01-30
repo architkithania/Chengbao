@@ -1,0 +1,7 @@
+{
+  "url": "http://api.openweathermap.org/data/2.5/weather",
+  "qs": { 
+    "q": "Hong Kong", 
+    "appid": "c717ae1544c1d0702c38e428b0c7075e" 
+  }
+}
