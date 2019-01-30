@@ -1,5 +1,0 @@
-1. Write a simple NodeJS app that queries an API and does something with all different
-  resonses from the JSON object
-2. Write a ChaiJS unit Test file that tests the return value of all the different JSON objects
-3. Make sure different HTTP Protocals are being tested.
-4. Add Comments and documentation
