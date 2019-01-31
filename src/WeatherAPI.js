@@ -30,7 +30,8 @@ export function createWeatherOptions(city) {
  * Note: Funtion returns a Promise which is considered fullfilled if a proper API query could
  *       be made.
  *
- * Returns and Prints 'ERROR 404: Page Not Found' in case of mismatched query strings.
+ * Returns and Prints 'ERROR 404: Page Not Found' in case of mismatched query strings. Defaults
+ * to a predefined 'Home City' in case of an unknown city.
  *
  * @param {JSON Object} options
  */
@@ -39,6 +40,7 @@ export function postWeatherJson(options) {
     request.post(options, (err, res, body) => {
       if (err) {
         reject(new Error().message(err));
+        resolve(404);
       }
       else {
         if (res.statusCode == 404) {
@@ -58,7 +60,8 @@ export function postWeatherJson(options) {
  * Note: Funtion returns a Promise which is considered fullfilled if a proper API query could
  *       be made.
  * 
- * Returns and Prints 'ERROR 404: Page Not Found' in case of mismatched query strings.
+ * Returns and Prints 'ERROR 404: Page Not Found' in case of mismatched query strings. Defaults
+ * to a predefined 'Home City' in case of an unknown city.
  *
  * @param {JSON Object} options
  */
